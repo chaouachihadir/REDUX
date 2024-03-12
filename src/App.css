@@ -1,0 +1,81 @@
+.card {
+  width: 50rem !important;
+  height: 200% !important;
+  margin: 30px !important;
+  border: 1px solid #ccc !important;
+  border-radius: 5px !important;
+  padding: 10%;
+  background-color: palevioletred !important;
+  display: flex !important;
+  justify-content: center !important;
+  padding-bottom: 10% !important;
+  
+}
+
+.card-body {
+  padding: 70px;
+}
+
+.card-text {
+  font-size: 60px;
+}
+
+.btn {
+  margin-right: 20px;
+}
+
+.btn-primary {
+  background-color: #007bff;
+}
+
+.btn-success {
+  background-color: #28a745;
+}
+
+.btn-warning {
+  background-color: #ffc107;
+}
+
+.btn-danger {
+  background-color: black !important;
+}
+
+.background {
+  background-color: palevioletred; /* Choose your desired background color */
+  padding: 20px;
+}
+
+.container {
+  margin: 20px;
+}
+
+.form-control {
+  width: 300px;
+  padding: 10px;
+  margin-right: 10px;
+}
+
+.btn-success {
+  background-color: red !important;
+  color: white !important; 
+  padding: 10px 20px !important; 
+  border: none !important ; 
+  border-radius: 5px !important;
+  cursor: pointer !important;
+}
+
+.btn-success:hover {
+  background-color: #214e88 !important; 
+}
+.card {
+  transition: transform 0.3s ease-in-out !important;
+}
+
+.card:hover {
+  transform: scale(1.05) !important;
+}
+.App{
+  background-color: dimgrey;
+  height: 100vh;
+  
+}
